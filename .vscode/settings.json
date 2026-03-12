@@ -1,0 +1,41 @@
+{
+  "editor.formatOnType":true,
+  "files.associations": {
+    "*.vue": "vue",
+    "*.json": "jsonc"
+  },
+  "eslint.options": {
+    "extensions": [".js",".ts",".vue"]
+  },
+  "eslint.validate": ["javascript","javascriptreact","typescript","html","vue"],
+  "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/dist": true
+  },
+  "emmet.syntaxProfiles": {
+      "javascript": "jsx",
+      "typescript": "tsx",
+      "vue": "html",
+      "vue-html": "html"
+  },
+  "window.zoomLevel": 0,
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "gitlens.views.repositories.files.layout": "list",
+  "editor.tabCompletion": "on",
+  "git.confirmSync": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "scss"],
+  "css.validate": true,
+  "scss.validate": true,
+  "typescript.reportStyleChecksAsWarnings": false,
+  "prettier.trailingComma": "none",
+  "javascript.preferences.quoteStyle": "auto",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

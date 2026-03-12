@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint", // eslint
+    "eamodio.gitlens", // 好用git扩展
+    "stylelint.vscode-stylelint", // stylelint
+    "esbenp.prettier-vscode", // prettier
+    "stevencl.addDocComments", // jsdoc
+    "formulahendry.auto-complete-tag", // auto-complete-tag
+    "formulahendry.auto-close-tag", // auto-complete-tag
+  ]  
+}

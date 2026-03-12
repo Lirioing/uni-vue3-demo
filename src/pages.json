@@ -1,0 +1,113 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			// uni-ui 规则如下配置
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+			"^lee-(.*)": "@/components/lee-$1/lee-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/tabbar/workbench/index",
+			"style": {
+				"navigationBarTitleText": "工作台"
+			}
+		},
+		{
+			"path": "pages/tabbar/prophecy/index",
+			"style": {
+				"navigationBarTitleText": "大乐透"
+			}
+		},
+		{
+			"path": "pages/tabbar/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages/component",
+			"pages": [
+				{
+					"path": "lee-list/index",
+					"style": {
+						"navigationBarTitleText": "lee-list列表示例"
+					}
+				},
+				{
+					"path": "lee-empty-page/index",
+					"style": {
+						"navigationBarTitleText": "lee-empty-page空页面示例"
+					}
+				},
+				{
+					"path": "lee-image-page/index",
+					"style": {
+						"navigationBarTitleText": "lee-image-page图片页面示例",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "lee-signature/index",
+					"style": {
+						"navigationBarTitleText": "lee-signature横屏签名示例"
+					}
+				},
+				{
+					"path": "lee-swiper-blur/index",
+					"style": {
+						"navigationBarTitleText": "lee-swiper-blur背景虚化轮播图"
+					}
+				},
+				{
+					"path": "lee-swiper-fade/index",
+					"style": {
+						"navigationBarTitleText": "lee-swiper-fade双层轮播图"
+					}
+				},
+				{
+					"path": "lee-lottery/index",
+					"style": {
+						"navigationBarTitleText": "lee-lottery抽奖大转盘"
+					}
+				}
+			]
+		}
+	],
+	 "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#2979ff",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+			{
+        "pagePath": "pages/tabbar/workbench/index",
+        "iconPath": "static/images/tabbar/workbench.png",
+        "selectedIconPath": "static/images/tabbar/workbench-select.png",
+        "text": "工作台"
+      }, 
+			{
+        "pagePath": "pages/tabbar/prophecy/index",
+        "iconPath": "static/images/tabbar/prophecy.png",
+        "selectedIconPath": "static/images/tabbar/prophecy-select.png",
+        "text": "大乐透"
+      }, 
+			{
+        "pagePath": "pages/tabbar/mine/index",
+        "iconPath": "static/images/tabbar/mine.png",
+        "selectedIconPath": "static/images/tabbar/mine-select.png",
+        "text": "我的"
+      }
+    ]
+  },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
