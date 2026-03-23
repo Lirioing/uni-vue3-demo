@@ -35,6 +35,10 @@ const menuList = [
     title: 'lee-lottery抽奖大转盘',
     path: '/pages/component/lee-lottery/index'
   },
+  {
+    title: 'lee-swiper轮播图',
+    path: '/pages/component/lee-swiper/index'
+  },
 ]
 const openMenuPage = (item) => {
   if (item.path) {

@@ -74,6 +74,12 @@
 					"style": {
 						"navigationBarTitleText": "lee-lottery抽奖大转盘"
 					}
+				},
+				{
+					"path": "lee-swiper/index",
+					"style": {
+						"navigationBarTitleText": "lee-swiper轮播图"
+					}
 				}
 			]
 		}
