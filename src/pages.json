@@ -80,7 +80,13 @@
 					"style": {
 						"navigationBarTitleText": "lee-swiper轮播图"
 					}
-				}
+				},
+				{
+					"path": "lee-full-loading/index",
+					"style": {
+						"navigationBarTitleText": "lee-full-loading全屏加载示例"
+					}
+				},
 			]
 		}
 	],

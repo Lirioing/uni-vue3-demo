@@ -39,6 +39,10 @@ const menuList = [
     title: 'lee-swiper轮播图',
     path: '/pages/component/lee-swiper/index'
   },
+  {
+    title: 'lee-full-loading全屏加载示例',
+    path: '/pages/component/lee-full-loading/index'
+  },
 ]
 const openMenuPage = (item) => {
   if (item.path) {
